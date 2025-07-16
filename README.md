@@ -1,4 +1,5 @@
 # Prompting Neural-Guided Equation Discovery Based on Residuals
+This code accompanies the paper "Prompting Neural-Guided Equation Discovery Based on Residuals" accepted at Discovery Science 2025.
 
 Residuals for Equation Discovery (RED) is a post-processing method for Equation Discovery that
 improves a given equation in a targeted manner, based on its residuals
