@@ -1,0 +1,16 @@
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+*/.pyc
+**/Dataset/*
+**/SavedModels/*
+**/OtherModelTests/*
+**/old/*
+**/benchmark/log/*
+**/__pycache__/*
+**/.vscode/*
+**/.ipynb_checkpoints/*
+**/models/*
+**/venv/*
+**/plots/*
+benchmarkSimilarEquations.json
+**/benchmark/*

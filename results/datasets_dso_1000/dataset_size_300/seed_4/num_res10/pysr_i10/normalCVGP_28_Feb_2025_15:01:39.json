@@ -1,0 +1,1468 @@
+{
+    "args_max_branching_factor": "2",
+    "args_max_constants_in_tree": "3",
+    "args_max_depth_of_tree": "10",
+    "args_max_num_nodes_in_syntax_tree": "25",
+    "args_exp_name": "normal",
+    "args_path_to_old_results": "",
+    "args_seed": "4",
+    "args_logging_level": "30",
+    "args_root_dir": "/home/jbrugger/residuals_for_ed",
+    "args_max_num_residuals": "10",
+    "args_noise_factor": "0.0",
+    "args_dataset_folder": "datasets_dso_1000",
+    "args_max_dataset_size": "300",
+    "args_only_classic": "False",
+    "args_pysr_niterations": "10",
+    "data_Livermore2-Vars5-13_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Neat-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Nguyen-8_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.1433701776036499e-11,
+                    "infix": "   ( x_0 )   **   ( 0.4999999975255852 )   ",
+                    "prefix": " ** x_0 0.4999999975255852 ",
+                    "num_operations": 1,
+                    "time": 5.8813745975494385
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.0197159985713528e-11,
+                    "infix": "   ( x_0 )   **   ( 0.4999999975255852 )   ",
+                    "prefix": " ** x_0 0.4999999975255852 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "runtime": 1103.2953288555145,
+    "data_Korns-11_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-11_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-14_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-20_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-12_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 169.43316005948162,
+                    "infix": "(  ( x_0 )  - (  ( x_1 )  * ( (  ( x_0 )  * ( (  ( 0.020455830677860554 )  *  ( x_0 )  )  - (  ( 0.020455830677860554 )  * (  ( x_1 )  * ( (  ( 0.2116544736117713 )  *  ( x_0 )  )  -  ( 67.87883178577889 )  )  )  )  )  )  -  ( 2.572867288259685 )  )  )  ) ",
+                    "prefix": " - x_0  * x_1  -  * x_0  -  * 0.020455830677860554 x_0   * 0.020455830677860554  * x_1  -  * 0.2116544736117713 x_0  67.87883178577889    2.572867288259685 ",
+                    "num_operations": 10,
+                    "time": 35.493945598602295
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 134.96360371994118,
+                    "infix": "(  ( x_0 )  - (  ( x_1 )  * ( (  ( x_0 )  * ( (  ( 0.020455830677860554 )  *  ( x_0 )  )  - (  ( 0.020455830677860554 )  * (  ( x_1 )  * ( (  ( 0.2116544736117713 )  *  ( x_0 )  )  -  ( 67.87883178577889 )  )  )  )  )  )  -  ( 2.572867288259685 )  )  )  ) ",
+                    "prefix": " - x_0  * x_1  -  * x_0  -  * 0.020455830677860554 x_0   * 0.020455830677860554  * x_1  -  * 0.2116544736117713 x_0  67.87883178577889    2.572867288259685 ",
+                    "num_operations": 10
+                }
+            }
+        }
+    },
+    "data_Keijzer-2_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.05975296254269575,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2,
+                    "time": 1.6751391887664795
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.038500106768646826,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Constant-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-15_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-24_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Korns-6_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-9_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-7_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-25_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-21_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-2_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-14_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-5_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-21_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-19_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-25_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Constant-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_R1a_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 180.58568548659107,
+                    "infix": "(  ( 0.9999999863433893 )  -  ( x_0 )  ) ",
+                    "prefix": " - 0.9999999863433893 x_0",
+                    "num_operations": 1,
+                    "time": 2.055286407470703
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 144.73730658924373,
+                    "infix": "(  ( 0.9999999863433893 )  -  ( x_0 )  ) ",
+                    "prefix": " - 0.9999999863433893 x_0",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Vladislavleva-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-18_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-13_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-20_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 47.325714694913614,
+                    "infix": " ( 0.7099999923412511 ) ",
+                    "prefix": "0.7099999923412511",
+                    "num_operations": 0,
+                    "time": 4.026569366455078
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 58.97377699315917,
+                    "infix": " ( 0.7099999923412511 ) ",
+                    "prefix": "0.7099999923412511",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "data_Nguyen-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-20_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-1_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-1_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-12_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_R2a_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-23_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-12_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-22_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-15_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-21_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-11_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Nguyen-12_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Keijzer-5_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-17_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Poly-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.9588310553314758,
+                    "infix": "(  ( 1.000000080793544 )  *  sin ( (  ( x_0 )  +   ( 3.6654259703468988 )  )  ) ) ",
+                    "prefix": " * 1.000000080793544  sin  + x_0 3.6654259703468988  ",
+                    "num_operations": 3,
+                    "time": 10.53212285041809
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.8134581600406725,
+                    "infix": "(  ( 1.000000080793544 )  *  sin ( (  ( x_0 )  +   ( 3.6654259703468988 )  )  ) ) ",
+                    "prefix": " * 1.000000080793544  sin  + x_0 3.6654259703468988  ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars7-25_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Jin-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-8_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-14_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-15_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-6_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-11_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-20_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-11_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-15_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-1_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-16_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Constant-3_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.48668610114983685,
+                    "infix": "   ( 6.2101991754482193e-9 )   **   ( x_0 )   ",
+                    "prefix": " ** 6.2101991754482193e-9 x_0 ",
+                    "num_operations": 1,
+                    "time": 8.905104160308838
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.43670713656532223,
+                    "infix": "   ( 6.2101991754482193e-9 )   **   ( x_0 )   ",
+                    "prefix": " ** 6.2101991754482193e-9 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-9_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-9_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Keijzer-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-12_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Meier-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_R2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-17_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 39635.20815679687,
+                    "infix": "( (    ( x_0 )   **   ( 2 )    * ( (  ( 0.45075823696402295 )  *  ( x_1 )  )  +   ( 1.6714164551613622 )  )  )  +  (  ( 29.47158119108112 )  - (  ( 85.3632278359976 )  *  exp ( (  ( 0 )  -  ( 1 )  )  *  ( x_1 )  )  )  )  ) ",
+                    "prefix": " +  *  ** x_0 2   +  * 0.45075823696402295 x_1  1.6714164551613622    - 29.47158119108112  * 85.3632278359976  exp  *  - 0 1 x_1   ",
+                    "num_operations": 10,
+                    "time": 36.25642418861389
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 35355.75254212594,
+                    "infix": "( (    ( x_0 )   **   ( 2 )    * ( (  ( 0.45075823696402295 )  *  ( x_1 )  )  +   ( 1.6714164551613622 )  )  )  +  (  ( 29.47158119108112 )  - (  ( 85.3632278359976 )  *  exp ( (  ( 0 )  -  ( 1 )  )  *  ( x_1 )  )  )  )  ) ",
+                    "prefix": " +  *  ** x_0 2   +  * 0.45075823696402295 x_1  1.6714164551613622    - 29.47158119108112  * 85.3632278359976  exp  *  - 0 1 x_1   ",
+                    "num_operations": 10
+                }
+            }
+        }
+    },
+    "data_Poly-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-9_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Poly-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-22_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.46579177876291666,
+                    "infix": " ( x_2 ) ",
+                    "prefix": "x_2",
+                    "num_operations": 0,
+                    "time": 3.773068428039551
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.49796969930833335,
+                    "infix": " ( x_2 ) ",
+                    "prefix": "x_2",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-16_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Nguyen-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-13_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-8_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Neat-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-23_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-19_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Neat-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Jin-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-21_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-22_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Sine_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-1_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-12_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-15_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-7_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-2_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-5_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Neat-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-17_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-24_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-15_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Constant-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.2433135543634488e-11,
+                    "infix": "(  ( 1.1090537355070889 )  *    ( x_0 )   **   ( 0.49999995007563136 )    ) ",
+                    "prefix": " * 1.1090537355070889  ** x_0 0.49999995007563136  ",
+                    "num_operations": 2,
+                    "time": 10.601665019989014
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.3445517629333073e-11,
+                    "infix": "(  ( 1.1090537355070889 )  *    ( x_0 )   **   ( 0.49999995007563136 )    ) ",
+                    "prefix": " * 1.1090537355070889  ** x_0 0.49999995007563136  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-17_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-25_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-14_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-19_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Koza-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-2_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-18_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_GrammarVAE-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-25_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Korns-8_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-2_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-8_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-4_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.215118497323936e-09,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( x_1 )  * ( ( (  ( 0 )  -  ( 1 )  )  *  ( x_1 )  )  -  ( 0.8700154576870474 )  )  )  )  +  ( ( ( ( (  ( 0 )  -  ( 1 )  )  *  ( x_0 )  )  -  ( 0.2900076516864107 )  )  * ( ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.9999993467180509 )  *  ( x_0 )  )  )  +  (  ( 2 )  *  ( x_1 )  )  )  )  -  ( 1.588153312005736e-5 )  )  ) ",
+                    "prefix": " +  *  - 0 1  * x_1  -  *  - 0 1 x_1  0.8700154576870474    -  *  -  *  - 0 1 x_0  0.2900076516864107  +  *  - 0 1  * 0.9999993467180509 x_0    * 2 x_1    1.588153312005736e-5 ",
+                    "num_operations": 17,
+                    "time": 54.5264778137207
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 8.91262126404366e-09,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( x_1 )  * ( ( (  ( 0 )  -  ( 1 )  )  *  ( x_1 )  )  -  ( 0.8700154576870474 )  )  )  )  +  ( ( ( ( (  ( 0 )  -  ( 1 )  )  *  ( x_0 )  )  -  ( 0.2900076516864107 )  )  * ( ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.9999993467180509 )  *  ( x_0 )  )  )  +  (  ( 2 )  *  ( x_1 )  )  )  )  -  ( 1.588153312005736e-5 )  )  ) ",
+                    "prefix": " +  *  - 0 1  * x_1  -  *  - 0 1 x_1  0.8700154576870474    -  *  -  *  - 0 1 x_0  0.2900076516864107  +  *  - 0 1  * 0.9999993467180509 x_0    * 2 x_1    1.588153312005736e-5 ",
+                    "num_operations": 17
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-4_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 222.27852967572028,
+                    "infix": "( (  ( 0.47465887524867645 )  * (  ( x_1 )  *  ( x_2 )  )  )  +   ( 5.8579606008313229 )  ) ",
+                    "prefix": " +  * 0.47465887524867645  * x_1 x_2   5.8579606008313229 ",
+                    "num_operations": 3,
+                    "time": 44.57913565635681
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 159.41771899021413,
+                    "infix": "( (  ( 0.47465887524867645 )  * (  ( x_1 )  *  ( x_2 )  )  )  +   ( 5.8579606008313229 )  ) ",
+                    "prefix": " +  * 0.47465887524867645  * x_1 x_2   5.8579606008313229 ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-23_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-16_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Keijzer-9_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Neat-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-11_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1244.7097723233683,
+                    "infix": "( (  ( x_1 )  * ( (  ( 0.09179506219327242 )  *    ( x_0 )   **   ( 2 )    )  - ( (  ( x_0 )  +   ( 8.988036872627752 )  )  * ( (  ( 7.593652322912584e-6 )  *  exp  ( x_0 )  )  -  ( 0.1819444314560579 )  )  )  )  )  +   ( 1.6038758695305526 )  ) ",
+                    "prefix": " +  * x_1  -  * 0.09179506219327242  ** x_0 2    *  + x_0 8.988036872627752   -  * 7.593652322912584e-6  exp x_0  0.1819444314560579   1.6038758695305526 ",
+                    "num_operations": 10,
+                    "time": 53.578683614730835
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1673.8224675047811,
+                    "infix": "( (  ( x_1 )  * ( (  ( 0.09179506219327242 )  *    ( x_0 )   **   ( 2 )    )  - ( (  ( x_0 )  +   ( 8.988036872627752 )  )  * ( (  ( 7.593652322912584e-6 )  *  exp  ( x_0 )  )  -  ( 0.1819444314560579 )  )  )  )  )  +   ( 1.6038758695305526 )  ) ",
+                    "prefix": " +  * x_1  -  * 0.09179506219327242  ** x_0 2    *  + x_0 8.988036872627752   -  * 7.593652322912584e-6  exp x_0  0.1819444314560579   1.6038758695305526 ",
+                    "num_operations": 10
+                }
+            }
+        }
+    },
+    "data_Korns-12_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Keijzer-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.195234139399375e+21,
+                    "infix": "(  ( 358105.435070857 )  *  ( x_2 )  ) ",
+                    "prefix": " * 358105.435070857 x_2 ",
+                    "num_operations": 1,
+                    "time": 23.04154872894287
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.3932902343934013e+19,
+                    "infix": "(  ( 358105.435070857 )  *  ( x_2 )  ) ",
+                    "prefix": " * 358105.435070857 x_2 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-13_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-8_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-19_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 140191.8087466713,
+                    "infix": "( (  ( x_0 )  +   ( 0.7510498684702942 )  )  * ( (  ( 7.057102676640779 )  *    ( x_1 )   **   ( 2 )    )  +   ( x_2 )  )  ) ",
+                    "prefix": " *  + x_0 0.7510498684702942   +  * 7.057102676640779  ** x_1 2   x_2  ",
+                    "num_operations": 5,
+                    "time": 38.59242558479309
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 79306.99197197556,
+                    "infix": "( (  ( x_0 )  +   ( 0.7510498684702942 )  )  * ( (  ( 7.057102676640779 )  *    ( x_1 )   **   ( 2 )    )  +   ( x_2 )  )  ) ",
+                    "prefix": " *  + x_0 0.7510498684702942   +  * 7.057102676640779  ** x_1 2   x_2  ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "data_Constant-2_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.3482269252879419,
+                    "infix": "(  ( 0.40522673030955435 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.40522673030955435 x_0 ",
+                    "num_operations": 1,
+                    "time": 11.314815044403076
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.3574693725685019,
+                    "infix": "(  ( 0.40522673030955435 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.40522673030955435 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars7-24_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-10_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-20_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-22_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-3_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-8_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-13_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-12a_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-6_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-22_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Poly-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-16_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-13_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-7_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-16_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-7_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-2_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 3.619345267590961,
+                    "infix": "(  ( 1.0806046082498889 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0806046082498889 x_0 ",
+                    "num_operations": 1,
+                    "time": 3.1643261909484863
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.8001918555618315,
+                    "infix": "(  ( 1.0806046082498889 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0806046082498889 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-23_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-11_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Constant-8_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-8a_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-7_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.218186559280447e+43,
+                    "infix": "(  ( x_0 )  * (  ( x_2 )  * (  ( x_0 )  +  (  ( x_2 )  +  (  exp (  ( 1.616611716425487 )  /  ( x_2 )  )  -  ( 0.3166963011815203 )  )  )  )  )  ) ",
+                    "prefix": " * x_0  * x_2  + x_0  + x_2  -  exp  / 1.616611716425487 x_2  0.3166963011815203    ",
+                    "num_operations": 7,
+                    "time": 48.087273597717285
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 11734.8371612178,
+                    "infix": "(  ( x_0 )  * (  ( x_2 )  * (  ( x_0 )  +  (  ( x_2 )  +  (  exp (  ( 1.616611716425487 )  /  ( x_2 )  )  -  ( 0.3166963011815203 )  )  )  )  )  ) ",
+                    "prefix": " * x_0  * x_2  + x_0  + x_2  -  exp  / 1.616611716425487 x_2  0.3166963011815203    ",
+                    "num_operations": 7
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars2-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 24762283.10287555,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * ( ( ( (  ( 0 )  -  ( 1 )  )  *  ( 59.58438098208299 )  )  +  ( ( (  ( 2.0170204547774624 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  +   ( 855.0695499180054 )  )  /  ( x_0 )  )  )  * ( (  ( x_0 )  *  ( x_1 )  )  -  ( x_0 )  )  )  )  +   ( 507.1041627196468 )  ) ",
+                    "prefix": " +  *  - 0 1  *  +  *  - 0 1 59.58438098208299   /  +  * 2.0170204547774624  * x_0  ** x_1 2    855.0695499180054  x_0    -  * x_0 x_1  x_0   507.1041627196468 ",
+                    "num_operations": 14,
+                    "time": 65.90483355522156
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 24863603.09414105,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * ( ( ( (  ( 0 )  -  ( 1 )  )  *  ( 59.58438098208299 )  )  +  ( ( (  ( 2.0170204547774624 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  +   ( 855.0695499180054 )  )  /  ( x_0 )  )  )  * ( (  ( x_0 )  *  ( x_1 )  )  -  ( x_0 )  )  )  )  +   ( 507.1041627196468 )  ) ",
+                    "prefix": " +  *  - 0 1  *  +  *  - 0 1 59.58438098208299   /  +  * 2.0170204547774624  * x_0  ** x_1 2    855.0695499180054  x_0    -  * x_0 x_1  x_0   507.1041627196468 ",
+                    "num_operations": 14
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars7-22_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Jin-5_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Const-Test-1_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 8.358815314507627e-12,
+                    "infix": "(  ( 3.1415926123554512 )  *    ( x_0 )   **   ( 2 )    ) ",
+                    "prefix": " * 3.1415926123554512  ** x_0 2  ",
+                    "num_operations": 2,
+                    "time": 11.09192180633545
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.037786249949919e-12,
+                    "infix": "(  ( 3.1415926123554512 )  *    ( x_0 )   **   ( 2 )    ) ",
+                    "prefix": " * 3.1415926123554512  ** x_0 2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars6-3_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Jin-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Nguyen-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-9_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Constant-1_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Neat-8_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Korns-5_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Constant-7_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.152399429799249,
+                    "infix": " ( 0.012870411564769313 ) ",
+                    "prefix": "0.012870411564769313",
+                    "num_operations": 0,
+                    "time": 2.9523959159851074
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.3443143774509456,
+                    "infix": " ( 0.012870411564769313 ) ",
+                    "prefix": "0.012870411564769313",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-3_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Vladislavleva-2_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-5_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-2_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1880516.3235005985,
+                    "infix": "(  ( 88.96466570391152 )  *  ( x_0 )  ) ",
+                    "prefix": " * 88.96466570391152 x_0 ",
+                    "num_operations": 1,
+                    "time": 15.85418152809143
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 2247708.9227131577,
+                    "infix": "(  ( 88.96466570391152 )  *  ( x_0 )  ) ",
+                    "prefix": " * 88.96466570391152 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Neat-3_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.74443938964964,
+                    "infix": "(  ( 0.54030231220653228 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.54030231220653228 x_0 ",
+                    "num_operations": 1,
+                    "time": 2.2723095417022705
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.7267514127248161,
+                    "infix": "(  ( 0.54030231220653228 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.54030231220653228 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-24_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 147.73783883263124,
+                    "infix": "(  ( x_0 )  - (  ( x_1 )  * ( (  ( x_0 )  * ( (  ( 0.020455830677860554 )  *  ( x_0 )  )  - (  ( 0.020455830677860554 )  * (  ( x_1 )  * ( (  ( 0.2116544736117713 )  *  ( x_0 )  )  -  ( 67.87883178577889 )  )  )  )  )  )  -  ( 2.572867288259685 )  )  )  ) ",
+                    "prefix": " - x_0  * x_1  -  * x_0  -  * 0.020455830677860554 x_0   * 0.020455830677860554  * x_1  -  * 0.2116544736117713 x_0  67.87883178577889    2.572867288259685 ",
+                    "num_operations": 10,
+                    "time": 36.424617528915405
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 288.9352601979633,
+                    "infix": "(  ( x_0 )  - (  ( x_1 )  * ( (  ( x_0 )  * ( (  ( 0.020455830677860554 )  *  ( x_0 )  )  - (  ( 0.020455830677860554 )  * (  ( x_1 )  * ( (  ( 0.2116544736117713 )  *  ( x_0 )  )  -  ( 67.87883178577889 )  )  )  )  )  )  -  ( 2.572867288259685 )  )  )  ) ",
+                    "prefix": " - x_0  * x_1  -  * x_0  -  * 0.020455830677860554 x_0   * 0.020455830677860554  * x_1  -  * 0.2116544736117713 x_0  67.87883178577889    2.572867288259685 ",
+                    "num_operations": 10
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-11_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-16_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-25_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-23_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-9_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-18_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 26.315368007997957,
+                    "infix": "(  ( 2.701511535935001 )  *  ( x_0 )  ) ",
+                    "prefix": " * 2.701511535935001 x_0 ",
+                    "num_operations": 1,
+                    "time": 5.143190383911133
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 22.863491415253797,
+                    "infix": "(  ( 2.701511535935001 )  *  ( x_0 )  ) ",
+                    "prefix": " * 2.701511535935001 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_R3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-15_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nonic_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_R1_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 13.910798958665062,
+                    "infix": "(  ( 0.9999999863433893 )  -  ( x_0 )  ) ",
+                    "prefix": " - 0.9999999863433893 x_0",
+                    "num_operations": 1,
+                    "time": 2.048677682876587
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.866214531615762,
+                    "infix": "(  ( 0.9999999863433893 )  -  ( x_0 )  ) ",
+                    "prefix": " - 0.9999999863433893 x_0",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Keijzer-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars3-14_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Jin-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Neat-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.7801522867678029,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04688934958610874 )  ) ",
+                    "prefix": " *  - 0 1 0.04688934958610874 ",
+                    "num_operations": 2,
+                    "time": 4.569485902786255
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.9030571110579158,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04688934958610874 )  ) ",
+                    "prefix": " *  - 0 1 0.04688934958610874 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Koza-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_R3a_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-17_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-19_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-20_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-10_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.8423543725135453,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04688934958610874 )  ) ",
+                    "prefix": " *  - 0 1 0.04688934958610874 ",
+                    "num_operations": 2,
+                    "time": 4.646858215332031
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.8543125499335442,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04688934958610874 )  ) ",
+                    "prefix": " *  - 0 1 0.04688934958610874 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-6_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-4_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-8_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Keijzer-3_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.13199780261946867,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2,
+                    "time": 1.704421043395996
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.1456681565155817,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore-17_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-16_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-18_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-18_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-13_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 738600.005702392,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 2.9507431088788860 )  ) ",
+                    "prefix": " *  - 0 1 2.9507431088788860 ",
+                    "num_operations": 2,
+                    "time": 7.626535892486572
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 4121920.0834744894,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 2.9507431088788860 )  ) ",
+                    "prefix": " *  - 0 1 2.9507431088788860 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars6-5_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-3_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Vladislavleva-7_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars4-11_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Nguyen-5_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.6737688202899849,
+                    "infix": "(  ( 0.540302305149621 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.540302305149621 x_0 ",
+                    "num_operations": 1,
+                    "time": 2.6705167293548584
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.698865106934332,
+                    "infix": "(  ( 0.540302305149621 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.540302305149621 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars7-23_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-20_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars7-21_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-7_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-21_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars3-9_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Keijzer-1_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.012823062836616494,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2,
+                    "time": 1.692617416381836
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.013108180968116914,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  *  ( 0.04523490090105059 )  ) ",
+                    "prefix": " *  - 0 1 0.04523490090105059 ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore-7a_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Meier-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Poly-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-12_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-23_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-5_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-21_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Korns-9_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-3_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-8_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-3_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 2393871325.3931417,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.044116099076556684 )  * (    ( x_1 )   **   ( 2 )    * ( (  ( 8.346721504678253 )  -  ( x_0 )  )  *  exp  ( x_0 )  )  )  )  )  - ( (  ( x_1 )  * ( (  ( 11.820593185542641 )  -  ( x_0 )  )  *  exp  ( x_0 )  )  )  -  ( 4471.110461341138 )  )  ) ",
+                    "prefix": " -  *  - 0 1  * 0.044116099076556684  *  ** x_1 2   *  - 8.346721504678253 x_0  exp x_0      -  * x_1  *  - 11.820593185542641 x_0  exp x_0   4471.110461341138",
+                    "num_operations": 14,
+                    "time": 31.058239221572876
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1847440121.6660435,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.044116099076556684 )  * (    ( x_1 )   **   ( 2 )    * ( (  ( 8.346721504678253 )  -  ( x_0 )  )  *  exp  ( x_0 )  )  )  )  )  - ( (  ( x_1 )  * ( (  ( 11.820593185542641 )  -  ( x_0 )  )  *  exp  ( x_0 )  )  )  -  ( 4471.110461341138 )  )  ) ",
+                    "prefix": " -  *  - 0 1  * 0.044116099076556684  *  ** x_1 2   *  - 8.346721504678253 x_0  exp x_0      -  * x_1  *  - 11.820593185542641 x_0  exp x_0   4471.110461341138",
+                    "num_operations": 14
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars6-6_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-10_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars5-22_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars2-6_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore-12_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars6-24_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Poly-3_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars5-14_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Korns-1_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-19_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars6-4_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-10_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 444838514.0888034,
+                    "infix": "(  ( 1.5639980554562336 )  / (    ( x_0 )   **   ( 2 )    *    ( x_1 )   **   ( x_1 )    )  ) ",
+                    "prefix": " / 1.5639980554562336  *  ** x_0 2   ** x_1 x_1   ",
+                    "num_operations": 4,
+                    "time": 4.837656021118164
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1720766.1399661428,
+                    "infix": "(  ( 1.5639980554562336 )  / (    ( x_0 )   **   ( 2 )    *    ( x_1 )   **   ( x_1 )    )  ) ",
+                    "prefix": " / 1.5639980554562336  *  ** x_0 2   ** x_1 x_1   ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars3-10_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Livermore2-Vars2-18_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.17141224278692072,
+                    "infix": "( (  ( 11.505612415993334 )  *    ( x_1 )   **   ( 1.126730468676012 )    )  -  ( 1.096679590987157 )  ) ",
+                    "prefix": " -  * 11.505612415993334  ** x_1 1.126730468676012   1.096679590987157",
+                    "num_operations": 3,
+                    "time": 7.827848196029663
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.12145777300854925,
+                    "infix": "( (  ( 11.505612415993334 )  *    ( x_1 )   **   ( 1.126730468676012 )    )  -  ( 1.096679590987157 )  ) ",
+                    "prefix": " -  * 11.505612415993334  ** x_1 1.126730468676012   1.096679590987157",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars2-17_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "data_Keijzer-8_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.95654445262736e-12,
+                    "infix": "   ( x_0 )   **   ( 0.499999987636666 )   ",
+                    "prefix": " ** x_0 0.499999987636666 ",
+                    "num_operations": 1,
+                    "time": 2.850314140319824
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 8.82870497629604e-12,
+                    "infix": "   ( x_0 )   **   ( 0.499999987636666 )   ",
+                    "prefix": " ** x_0 0.499999987636666 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars6-14_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars4-24_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Jin-4_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 11.31408341804431,
+                    "infix": "   ( 2.718330004768062 )   **  (  ( x_0 )  +   ( 0.40524188259687599 )  )   ",
+                    "prefix": " ** 2.718330004768062  + x_0 0.40524188259687599  ",
+                    "num_operations": 2,
+                    "time": 13.181965112686157
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.412987851708605,
+                    "infix": "   ( 2.718330004768062 )   **  (  ( x_0 )  +   ( 0.40524188259687599 )  )   ",
+                    "prefix": " ** 2.718330004768062  + x_0 0.40524188259687599  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars5-2_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Const-Test-2_n0.00_s0.csv": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 8.358815314507627e-12,
+                    "infix": "(  ( 3.1415926123554512 )  *    ( x_0 )   **   ( 2 )    ) ",
+                    "prefix": " * 3.1415926123554512  ** x_0 2  ",
+                    "num_operations": 2,
+                    "time": 11.027328252792358
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.037786249949919e-12,
+                    "infix": "(  ( 3.1415926123554512 )  *    ( x_0 )   **   ( 2 )    ) ",
+                    "prefix": " * 3.1415926123554512  ** x_0 2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "data_Livermore2-Vars4-9_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore2-Vars7-18_n0.00_s0.csv": {
+        "equation": "To many variables"
+    },
+    "data_Livermore-19_n0.00_s0.csv": {
+        "equation": "Error"
+    },
+    "finished": "True"
+}

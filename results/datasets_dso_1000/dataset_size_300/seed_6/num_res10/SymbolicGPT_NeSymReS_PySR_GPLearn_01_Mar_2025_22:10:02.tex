@@ -1,0 +1,50 @@
+\begin{tabularx}{\textwidth}{lRRRR}
+\toprule
+  &  SymbolicGPT  &  NeSymReS  &  PySR  &  GPLearn  \\ 
+\midrule
+Running time [sec]  &  15458  &  31037  &  14943  &  26465  \\ 
+Classic  &     &     &     &     \\ 
+\qquad  \# Completed  &  75\phantom{.00}  &  121\phantom{.00}  &  139\phantom{.00}  &  81\phantom{.00}  \\ 
+\qquad  \# MSE >0.001  &  66\phantom{.00}  &  102\phantom{.00}  &  100\phantom{.00}  &  67\phantom{.00}  \\ 
+\qquad MSE Q2  &  0.04  &  0.64  &  1.68  &  0.10  \\ 
+\qquad MSE Q3  &  0.60  &  124.11  &  1502.30  &  4.50  \\ 
+\qquad Q2 Symbols  &  6\phantom{.00}  &  6\phantom{.00}  &  3\phantom{.00}  &  3\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  1.67  &  5.65  &  1.91  &  17.81  \\ 
+Seeded GPLearn  &     &     &     &     \\ 
+\qquad  \# Completed  &  59\phantom{.00}  &  98\phantom{.00}  &  83\phantom{.00}  &  58\phantom{.00}  \\ 
+\qquad MSE Q2  &  \textbf{0.01}  &  \underline{0.11}  &  0.86  &  \underline{0.04}  \\ 
+\qquad MSE Q3  &  0.17  &  15.74  &  898.66  &  2.47  \\ 
+\qquad Q2 Symbols  &  4\phantom{.00}  &  6\phantom{.00}  &  5\phantom{.00}  &  4\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  127.16  &  143.57  &  74.89  &  86.05  \\ 
+Hyper  &     &     &     &     \\ 
+\qquad  \# Completed  &  64\phantom{.00}  &  100\phantom{.00}  &  100\phantom{.00}  &  58\phantom{.00}  \\ 
+\qquad MSE Q2  &  0.03  &  0.48  &  \underline{0.57}  &  0.08  \\ 
+\qquad MSE Q3  &  0.42  &  47.05  &  134.66  &  1.09  \\ 
+\qquad Q2 Symbols  &  6\phantom{.00}  &  6\phantom{.00}  &  4\phantom{.00}  &  4\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  3.97  &  13.60  &  3.81  &  34.46  \\ 
+Refit  &     &     &     &     \\ 
+\qquad  \# Completed  &  40\phantom{.00}  &  52\phantom{.00}  &  70\phantom{.00}  &  54\phantom{.00}  \\ 
+\qquad MSE Q2  &  0.02  &  0.29  &  0.32  &  0.12  \\ 
+\qquad MSE Q3  &  0.45  &  11.29  &  12.54  &  2.16  \\ 
+\qquad Q2 Symbols  &  4\phantom{.00}  &  5\phantom{.00}  &  2\phantom{.00}  &  3\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  0\phantom{.00}  &  0\phantom{.00}  &  0\phantom{.00}  &  0\phantom{.00}  \\ 
+Permute  &     &     &     &     \\ 
+\qquad  \# Completed  &  63\phantom{.00}  &  101\phantom{.00}  &  92\phantom{.00}  &  50\phantom{.00}  \\ 
+\qquad MSE Q2  &  \underline{0.03}  &  0.45  &  0.72  &  0.03  \\ 
+\qquad MSE Q3  &  0.41  &  97.58  &  181.88  &  0.52  \\ 
+\qquad Q2 Symbols  &  7\phantom{.00}  &  6\phantom{.00}  &  5\phantom{.00}  &  4\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  16.49  &  58.19  &  18.44  &  107.84  \\ 
+CVGP  &     &     &     &     \\ 
+\qquad  \# Completed  &  17\phantom{.00}  &  22\phantom{.00}  &  23\phantom{.00}  &  16\phantom{.00}  \\ 
+\qquad MSE Q2  &  0.70  &  9.41  &  47.78  &  1.22  \\ 
+\qquad MSE Q3  &  4.44  &  9795.17  &  35363.75  &  167.86  \\ 
+\qquad Q2 Symbols  &  2\phantom{.00}  &  2\phantom{.00}  &  2\phantom{.00}  &  2\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  4.84  &  6.71  &  8.12  &  6.55  \\ 
+\ours{}  &     &     &     &     \\ 
+\qquad  \# Completed  &  46\phantom{.00}  &  88\phantom{.00}  &  77\phantom{.00}  &  43\phantom{.00}  \\ 
+\qquad MSE Q2  &  0.02  &  \textbf{0.04}  &  \textbf{0.19}  &  \textbf{0.01}  \\ 
+\qquad MSE Q3  &  0.42  &  13.10  &  83.57  &  0.49  \\ 
+\qquad Q2 Symbols  &  11\phantom{.00}  &  12\phantom{.00}  &  7\phantom{.00}  &  6\phantom{.00}  \\ 
+\qquad Runtime Q2 [sec]  &  12.72  &  36.32  &  16.21  &  73.50  \\ 
+\bottomrule
+\end{tabularx}{\textwidth}

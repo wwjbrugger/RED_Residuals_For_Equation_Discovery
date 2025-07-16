@@ -1,0 +1,39 @@
+{
+    "args_max_branching_factor": "2",
+    "args_max_constants_in_tree": "3",
+    "args_max_depth_of_tree": "10",
+    "args_max_num_nodes_in_syntax_tree": "25",
+    "args_exp_name": "",
+    "args_path_to_old_results": "",
+    "args_seed": "1",
+    "args_logging_level": "30",
+    "args_root_dir": "/home/jbrugger/residuals_for_ed",
+    "args_max_num_residuals": "10",
+    "args_noise_factor": "0",
+    "args_dataset_folder": "datasets_srbench",
+    "args_max_dataset_size": "300",
+    "args_only_classic": "False",
+    "args_pysr_niterations": "10",
+    "feynman_II_34_29a.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.417300054611321e-16,
+                    "infix": "(  ( 0.0795774740524862 )  * (  ( x_0 )  * (  ( x_1 )  /  ( x_2 )  )  )  ) ",
+                    "prefix": " * 0.0795774740524862  * x_0  / x_1 x_2   ",
+                    "num_operations": 3,
+                    "time": 3.7377946376800537
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.2990173773576204e-16,
+                    "infix": "(  ( 0.0795774740524862 )  * (  ( x_0 )  * (  ( x_1 )  /  ( x_2 )  )  )  ) ",
+                    "prefix": " * 0.0795774740524862  * x_0  / x_1 x_2   ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "runtime": 3.8037047386169434
+}

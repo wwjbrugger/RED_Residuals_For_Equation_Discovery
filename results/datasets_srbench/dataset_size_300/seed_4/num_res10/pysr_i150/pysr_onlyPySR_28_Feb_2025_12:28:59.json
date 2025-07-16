@@ -1,0 +1,1330 @@
+{
+    "args_max_branching_factor": "2",
+    "args_max_constants_in_tree": "3",
+    "args_max_depth_of_tree": "10",
+    "args_max_num_nodes_in_syntax_tree": "25",
+    "args_pysr_niterations": "150",
+    "args_exp_name": "pysr_only",
+    "args_path_to_old_results": "",
+    "args_seed": "4",
+    "args_logging_level": "30",
+    "args_root_dir": "/home/jbrugger/residuals_for_ed",
+    "args_max_num_residuals": "10",
+    "args_noise_factor": "0.0",
+    "args_dataset_folder": "datasets_srbench",
+    "args_max_dataset_size": "300",
+    "args_only_classic": "True",
+    "feynman_II_34_29a.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 6.923149785203859e-10,
+                    "infix": "(  ( 0.079571459453915 )  * (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  /  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * 0.079571459453915  * x_0  * x_1  / 1 x_2    ",
+                    "num_operations": 4,
+                    "time": 8.751763343811035
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.048116349045051e-09,
+                    "infix": "(  ( 0.079571459453915 )  * (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  /  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * 0.079571459453915  * x_0  * x_1  / 1 x_2    ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "runtime": 128.81884622573853,
+    "feynman_I_15_3t.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_13_34.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.11823970737397337,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1,
+                    "time": 1.9398000240325928
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.07513397249139481,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_III_15_27.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.2200459249883655e-05,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / (  ( 0.15929683 )  * (  ( x_1 )  *  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * x_0  / 1  * 0.15929683  * x_1 x_2    ",
+                    "num_operations": 4,
+                    "time": 2.0252327919006348
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.735493699523084e-05,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / (  ( 0.15929683 )  * (  ( x_1 )  *  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * x_0  / 1  * 0.15929683  * x_1 x_2    ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_I_18_14.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_6_2.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.0017060251256858909,
+                    "infix": "(  ( 1 )  /  ( 8.795337 )  ) ",
+                    "prefix": " / 1 8.795337 ",
+                    "num_operations": 1,
+                    "time": 1.8658370971679688
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.0018842481224855057,
+                    "infix": "(  ( 1 )  /  ( 8.795337 )  ) ",
+                    "prefix": " / 1 8.795337 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_26_2.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.18125251495969588,
+                    "infix": " sin (  ( x_1 )  )",
+                    "prefix": " sin x_1",
+                    "num_operations": 1,
+                    "time": 1.9445624351501465
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.24455912492565607,
+                    "infix": " sin (  ( x_1 )  )",
+                    "prefix": " sin x_1",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_test_14.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_24_6.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_12_11.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_12.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_27_6.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 2.2870418089598426e-32,
+                    "infix": "(  ( 1 )  / ( (  ( x_2 )  * (  ( 1 )  /  ( x_1 )  )  )  +  (  ( 1 )  /  ( x_0 )  )  )  ) ",
+                    "prefix": " / 1  +  * x_2  / 1 x_1    / 1 x_0   ",
+                    "num_operations": 5,
+                    "time": 1.863025188446045
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.9413373839423337e-32,
+                    "infix": "(  ( 1 )  / ( (  ( x_2 )  * (  ( 1 )  /  ( x_1 )  )  )  +  (  ( 1 )  /  ( x_0 )  )  )  ) ",
+                    "prefix": " / 1  +  * x_2  / 1 x_1    / 1 x_0   ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_II_15_4.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 4.7536455028755664e-12,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  * (  ( 0.9999997 )  * (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  )  ) ",
+                    "prefix": " *  - 0 1  * 0.9999997  * x_0  * x_1  cos x_2    ",
+                    "num_operations": 6,
+                    "time": 2.1136481761932373
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.7808101372649135e-12,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  * (  ( 0.9999997 )  * (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  )  ) ",
+                    "prefix": " *  - 0 1  * 0.9999997  * x_0  * x_1  cos x_2    ",
+                    "num_operations": 6
+                }
+            }
+        }
+    },
+    "feynman_II_34_11.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_13_23.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.013164868440240255,
+                    "infix": "(  ( 1.0411127 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0411127 x_0 ",
+                    "num_operations": 1,
+                    "time": 1.7065961360931396
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.02426089065587656,
+                    "infix": "(  ( 1.0411127 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0411127 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_II_36_38.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_11_3.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_11_20.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_32_5.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_5.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_35_21.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_38_14.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.656544972216957e-14,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / ( (  ( 2 )  *  ( x_1 )  )  +   ( 1.9999965388831 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  +  * 2 x_1  1.9999965388831   ",
+                    "num_operations": 4,
+                    "time": 2.028545618057251
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 5.4019155938622084e-14,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / ( (  ( 2 )  *  ( x_1 )  )  +   ( 1.9999965388831 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  +  * 2 x_1  1.9999965388831   ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_I_25_13.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.0753108856162068e-31,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2,
+                    "time": 2.017561197280884
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 7.056607316234832e-32,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_III_15_14.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.0003265451299469804,
+                    "infix": " ( 0.0112964237316238 ) ",
+                    "prefix": "0.0112964237316238",
+                    "num_operations": 0,
+                    "time": 2.0661120414733887
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.00010461379620854275,
+                    "infix": " ( 0.0112964237316238 ) ",
+                    "prefix": "0.0112964237316238",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "feynman_III_10_19.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_14_14.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_32_17.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_15_12.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 9.632316509433509e-29,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( 2.0 )  * (  ( x_0 )  *  cos ((  ( x_1 )  *  ( x_2 )  )  ) )  )  )  +  (  ( 2 )  *  ( x_0 )  )  ) ",
+                    "prefix": " +  *  - 0 1  * 2.0  * x_0  cos  * x_1 x_2      * 2 x_0  ",
+                    "num_operations": 8,
+                    "time": 2.2036800384521484
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.4647619530065044e-29,
+                    "infix": "( ( (  ( 0 )  -  ( 1 )  )  * (  ( 2.0 )  * (  ( x_0 )  *  cos ((  ( x_1 )  *  ( x_2 )  )  ) )  )  )  +  (  ( 2 )  *  ( x_0 )  )  ) ",
+                    "prefix": " +  *  - 0 1  * 2.0  * x_0  cos  * x_1 x_2      * 2 x_0  ",
+                    "num_operations": 8
+                }
+            }
+        }
+    },
+    "feynman_II_13_17.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_6_2a.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 9.06959756167333e-05,
+                    "infix": " sin (  exp ( (  ( 0 )  -  ( 1 )  )  * (  ( 1.4208463 )  *  ( x_0 )  )  )  )",
+                    "prefix": " sin  exp  *  - 0 1  * 1.4208463 x_0  ",
+                    "num_operations": 5,
+                    "time": 2.135727882385254
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.563597785921003e-05,
+                    "infix": " sin (  exp ( (  ( 0 )  -  ( 1 )  )  * (  ( 1.4208463 )  *  ( x_0 )  )  )  )",
+                    "prefix": " sin  exp  *  - 0 1  * 1.4208463 x_0  ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_test_17.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_34_14.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.006433950241801661,
+                    "infix": "(  ( 1.014125 )  * (  ( x_2 )  *  exp (  ( x_1 )  * (  ( 1 )  /  ( x_0 )  )  )  )  ) ",
+                    "prefix": " * 1.014125  * x_2  exp  * x_1  / 1 x_0    ",
+                    "num_operations": 5,
+                    "time": 2.037360906600952
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.011584143368173856,
+                    "infix": "(  ( 1.014125 )  * (  ( x_2 )  *  exp (  ( x_1 )  * (  ( 1 )  /  ( x_0 )  )  )  )  ) ",
+                    "prefix": " * 1.014125  * x_2  exp  * x_1  / 1 x_0    ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_I_14_4.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 2.754778843611885e-15,
+                    "infix": "( (  ( 0.5 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  -  ( 5.2485987e-8 )  ) ",
+                    "prefix": " -  * 0.5  * x_0  ** x_1 2    5.2485987e-8",
+                    "num_operations": 4,
+                    "time": 1.9841654300689697
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 2.7547788685713453e-15,
+                    "infix": "( (  ( 0.5 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  -  ( 5.2485987e-8 )  ) ",
+                    "prefix": " -  * 0.5  * x_0  ** x_1 2    5.2485987e-8",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_I_38_12.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_34_2.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 3.5499867876212585e-07,
+                    "infix": "(  ( 0.499982265594489 )  * (  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  )  ) ",
+                    "prefix": " * 0.499982265594489  * x_0  * x_1 x_2   ",
+                    "num_operations": 3,
+                    "time": 2.1534006595611572
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 4.21313539147851e-07,
+                    "infix": "(  ( 0.499982265594489 )  * (  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  )  ) ",
+                    "prefix": " * 0.499982265594489  * x_0  * x_1 x_2   ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "feynman_test_15.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_8_7.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.011290177677273838,
+                    "infix": " ( 0.0898759856153785 ) ",
+                    "prefix": "0.0898759856153785",
+                    "num_operations": 0,
+                    "time": 2.107929229736328
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.005094689518984343,
+                    "infix": " ( 0.0898759856153785 ) ",
+                    "prefix": "0.0898759856153785",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "feynman_I_39_11.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 6.433099882021447e-09,
+                    "infix": "( (  ( x_1 )  * (  ( x_2 )  * (  ( 1 )  / (  ( x_0 )  -  ( 0.9999689 )  )  )  )  )  +   ( 6.457779e-5 )  ) ",
+                    "prefix": " +  * x_1  * x_2  / 1  - x_0 0.9999689    6.457779e-5 ",
+                    "num_operations": 5,
+                    "time": 2.1300644874572754
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 5.123284261264072e-09,
+                    "infix": "( (  ( x_1 )  * (  ( x_2 )  * (  ( 1 )  / (  ( x_0 )  -  ( 0.9999689 )  )  )  )  )  +   ( 6.457779e-5 )  ) ",
+                    "prefix": " +  * x_1  * x_2  / 1  - x_0 0.9999689    6.457779e-5 ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_II_6_11.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_8_31.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.074503574500634e-17,
+                    "infix": "( (  ( 0.5 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  +   ( 8.411007e-9 )  ) ",
+                    "prefix": " +  * 0.5  * x_0  ** x_1 2    8.411007e-9 ",
+                    "num_operations": 4,
+                    "time": 1.9135706424713135
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 7.074504557336238e-17,
+                    "infix": "( (  ( 0.5 )  * (  ( x_0 )  *    ( x_1 )   **   ( 2 )    )  )  +   ( 8.411007e-9 )  ) ",
+                    "prefix": " +  * 0.5  * x_0  ** x_1 2    8.411007e-9 ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_I_12_2.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_12_4.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.6038040761356533,
+                    "infix": "(  ( 0.0792570958570644 )  * (  ( x_0 )  * (  ( 1 )  / (  ( x_2 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  )  )  )  ) ",
+                    "prefix": " * 0.0792570958570644  * x_0  / 1  * x_2  / 1  * x_1 x_2      ",
+                    "num_operations": 6,
+                    "time": 2.137397050857544
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.560475362635261,
+                    "infix": "(  ( 0.0792570958570644 )  * (  ( x_0 )  * (  ( 1 )  / (  ( x_2 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  )  )  )  ) ",
+                    "prefix": " * 0.0792570958570644  * x_0  / 1  * x_2  / 1  * x_1 x_2      ",
+                    "num_operations": 6
+                }
+            }
+        }
+    },
+    "feynman_I_47_23.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.07620648217934868,
+                    "infix": "( (  ( x_0 )  * (  ( 1 )  /  ( x_2 )  )  )  +  (  ( 0.21922728 )  *  ( x_1 )  )  ) ",
+                    "prefix": " +  * x_0  / 1 x_2    * 0.21922728 x_1  ",
+                    "num_operations": 4,
+                    "time": 2.0564634799957275
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.23467441000969774,
+                    "infix": "( (  ( x_0 )  * (  ( 1 )  /  ( x_2 )  )  )  +  (  ( 0.21922728 )  *  ( x_1 )  )  ) ",
+                    "prefix": " +  * x_0  / 1 x_2    * 0.21922728 x_1  ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_test_2.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_19_51.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_8.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_10_9.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.714954368891202e-33,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / ( (  ( x_1 )  *  ( x_2 )  )  +   ( x_1 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  +  * x_1 x_2  x_1   ",
+                    "num_operations": 4,
+                    "time": 2.2271010875701904
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.3455830544785487e-32,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / ( (  ( x_1 )  *  ( x_2 )  )  +   ( x_1 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  +  * x_1 x_2  x_1   ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_II_34_29b.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_6.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_39_22.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_11_19.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_43_31.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.022166517940126e-28,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  ) ",
+                    "prefix": " * x_0  * x_1 x_2  ",
+                    "num_operations": 2,
+                    "time": 2.135176658630371
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 6.174151351529786e-29,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  ) ",
+                    "prefix": " * x_0  * x_1 x_2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_II_38_3.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_29_16.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_2_42.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_9_18.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_13_4.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_14_3.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.0504175991083535e-28,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  ) ",
+                    "prefix": " * x_0  * x_1 x_2  ",
+                    "num_operations": 2,
+                    "time": 2.0900583267211914
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 7.388997145570144e-29,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  ( x_2 )  )  ) ",
+                    "prefix": " * x_0  * x_1 x_2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_I_34_8.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_4_23.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 8.311573866979018e-12,
+                    "infix": "(  ( 0.07957319 )  * (  ( x_0 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * 0.07957319  * x_0  / 1  * x_1 x_2    ",
+                    "num_operations": 4,
+                    "time": 2.160684823989868
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 5.705271465213022e-12,
+                    "infix": "(  ( 0.07957319 )  * (  ( x_0 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  )  ) ",
+                    "prefix": " * 0.07957319  * x_0  / 1  * x_1 x_2    ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_I_41_16.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_16_6.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.14251380164709354,
+                    "infix": "(  ( 0.94283676 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.94283676 x_0 ",
+                    "num_operations": 1,
+                    "time": 2.2318954467773438
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.1593519913258091,
+                    "infix": "(  ( 0.94283676 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.94283676 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_II_34_2a.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.257775886811789e-14,
+                    "infix": "( (  ( 0.15915494 )  * (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  /  ( x_2 )  )  )  )  )  -  ( 2.1750407e-7 )  ) ",
+                    "prefix": " -  * 0.15915494  * x_0  * x_1  / 1 x_2     2.1750407e-7",
+                    "num_operations": 5,
+                    "time": 2.0555570125579834
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 5.243729466981164e-14,
+                    "infix": "( (  ( 0.15915494 )  * (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  /  ( x_2 )  )  )  )  )  -  ( 2.1750407e-7 )  ) ",
+                    "prefix": " -  * 0.15915494  * x_0  * x_1  / 1 x_2     2.1750407e-7",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_I_15_3x.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_1.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_17_37.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.4223995727812438e-29,
+                    "infix": "( (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  +   ( x_0 )  ) ",
+                    "prefix": " +  * x_0  * x_1  cos x_2   x_0 ",
+                    "num_operations": 4,
+                    "time": 2.3353118896484375
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.741850770351073e-30,
+                    "infix": "( (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  +   ( x_0 )  ) ",
+                    "prefix": " +  * x_0  * x_1  cos x_2   x_0 ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_test_13.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_4_32.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_35_18.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_6_2b.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.004007936867293596,
+                    "infix": "(  ( 1 )  /  ( 5.0592155 )  ) ",
+                    "prefix": " / 1 5.0592155 ",
+                    "num_operations": 1,
+                    "time": 2.010359764099121
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.0029176714470682034,
+                    "infix": "(  ( 1 )  /  ( 5.0592155 )  ) ",
+                    "prefix": " / 1 5.0592155 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_12_1.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 6.40148298635207e-30,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1,
+                    "time": 2.215829372406006
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.8522707538292746e-30,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_II_3_24.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 8.887038120089304e-18,
+                    "infix": "(  ( 0.079577468 )  * (  ( x_0 )  * (  ( 1 )  /    ( x_1 )   **   ( 2 )    )  )  ) ",
+                    "prefix": " * 0.079577468  * x_0  / 1  ** x_1 2    ",
+                    "num_operations": 4,
+                    "time": 2.1707823276519775
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.7829277296278223e-17,
+                    "infix": "(  ( 0.079577468 )  * (  ( x_0 )  * (  ( 1 )  /    ( x_1 )   **   ( 2 )    )  )  ) ",
+                    "prefix": " * 0.079577468  * x_0  / 1  ** x_1 2    ",
+                    "num_operations": 4
+                }
+            }
+        }
+    },
+    "feynman_test_20.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_43_43.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_34_1.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.011559976954377944,
+                    "infix": "(  ( x_2 )  *  exp (  ( x_1 )  * (  ( 1 )  / (  ( x_0 )  -  ( 0.9690487 )  )  )  )  ) ",
+                    "prefix": " * x_2  exp  * x_1  / 1  - x_0 0.9690487   ",
+                    "num_operations": 5,
+                    "time": 2.1434853076934814
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.006747180662570109,
+                    "infix": "(  ( x_2 )  *  exp (  ( x_1 )  * (  ( 1 )  / (  ( x_0 )  -  ( 0.9690487 )  )  )  )  ) ",
+                    "prefix": " * x_2  exp  * x_1  / 1  - x_0 0.9690487   ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_II_11_27.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_9.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_12_43.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 8.912593144041548e-16,
+                    "infix": "(  ( 0.15915494 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 0.15915494  * x_0 x_1  ",
+                    "num_operations": 2,
+                    "time": 2.1173479557037354
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.1864652839215236e-15,
+                    "infix": "(  ( 0.15915494 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 0.15915494  * x_0 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_I_8_14.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_6_15a.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_10_7.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.020221422217197287,
+                    "infix": "(  ( 1.0432593 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0432593 x_0 ",
+                    "num_operations": 1,
+                    "time": 2.1564133167266846
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.008606687140548552,
+                    "infix": "(  ( 1.0432593 )  *  ( x_0 )  ) ",
+                    "prefix": " * 1.0432593 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_43_16.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_3.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_30_5.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.5072251448554365e-05,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  * x_1 x_2   ",
+                    "num_operations": 3,
+                    "time": 2.1906473636627197
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 8.837786128901249e-06,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  / (  ( x_1 )  *  ( x_2 )  )  )  ) ",
+                    "prefix": " * x_0  / 1  * x_1 x_2   ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "feynman_I_34_27.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 7.137100743089604e-14,
+                    "infix": "(  ( 0.15915497 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 0.15915497  * x_0 x_1  ",
+                    "num_operations": 2,
+                    "time": 2.243497848510742
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 7.002014177994305e-14,
+                    "infix": "(  ( 0.15915497 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 0.15915497  * x_0 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_II_21_32.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_13_18.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_48_2.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 18.040229357476598,
+                    "infix": "(  ( x_0 )  *    ( x_2 )   **   ( 2 )    ) ",
+                    "prefix": " * x_0  ** x_2 2  ",
+                    "num_operations": 2,
+                    "time": 1.959770917892456
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 16.389385258773334,
+                    "infix": "(  ( x_0 )  *    ( x_2 )   **   ( 2 )    ) ",
+                    "prefix": " * x_0  ** x_2 2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_I_44_4.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_39_1.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 2.6335129399850092e-11,
+                    "infix": "(  ( 1.4999995 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 1.4999995  * x_0 x_1  ",
+                    "num_operations": 2,
+                    "time": 2.187023878097534
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 2.6775858074816664e-11,
+                    "infix": "(  ( 1.4999995 )  * (  ( x_0 )  *  ( x_1 )  )  ) ",
+                    "prefix": " * 1.4999995  * x_0 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_test_10.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.025961673501339846,
+                    "infix": "(  ( x_2 )  +   ( 0.31999215 )  ) ",
+                    "prefix": " + x_2 0.31999215 ",
+                    "num_operations": 1,
+                    "time": 2.121898889541626
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.02828894982349941,
+                    "infix": "(  ( x_2 )  +   ( 0.31999215 )  ) ",
+                    "prefix": " + x_2 0.31999215 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_12_5.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.4145851247162004e-30,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1,
+                    "time": 1.9784657955169678
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 6.44565097974335e-30,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_13_12.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_50_26.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_4.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_4_33.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_18_12.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 5.214209201184507e-30,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  sin (  ( x_2 )  ) )  ) ",
+                    "prefix": " * x_0  * x_1  sin x_2  ",
+                    "num_operations": 3,
+                    "time": 2.157335042953491
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 9.36530941730255e-30,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *  sin (  ( x_2 )  ) )  ) ",
+                    "prefix": " * x_0  * x_1  sin x_2  ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "feynman_test_19.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_7_38.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.004380427490326326,
+                    "infix": "( (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  / (  ( 0.07941965 )  *  ( x_2 )  )  )  )  )  -  ( 0.08469643 )  ) ",
+                    "prefix": " -  * x_0  * x_1  / 1  * 0.07941965 x_2     0.08469643",
+                    "num_operations": 5,
+                    "time": 1.9703612327575684
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.00426858883991873,
+                    "infix": "( (  ( x_0 )  * (  ( x_1 )  * (  ( 1 )  / (  ( 0.07941965 )  *  ( x_2 )  )  )  )  )  -  ( 0.08469643 )  ) ",
+                    "prefix": " -  * x_0  * x_1  / 1  * 0.07941965 x_2     0.08469643",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_III_21_20.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_30_3.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 9.181858356545654,
+                    "infix": " ( 2.80247820794512 ) ",
+                    "prefix": "2.80247820794512",
+                    "num_operations": 0,
+                    "time": 2.2289607524871826
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 6.4023452894870285,
+                    "infix": " ( 2.80247820794512 ) ",
+                    "prefix": "2.80247820794512",
+                    "num_operations": 0
+                }
+            }
+        }
+    },
+    "feynman_I_29_4.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.5335939405912511e-31,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2,
+                    "time": 1.9771950244903564
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 3.0324408951025157e-31,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_II_27_16.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 2.312056814240181e-27,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *    ( x_2 )   **   ( 2 )    )  ) ",
+                    "prefix": " * x_0  * x_1  ** x_2 2   ",
+                    "num_operations": 3,
+                    "time": 2.21260929107666
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 2.7359438260897052e-27,
+                    "infix": "(  ( x_0 )  * (  ( x_1 )  *    ( x_2 )   **   ( 2 )    )  ) ",
+                    "prefix": " * x_0  * x_1  ** x_2 2   ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "feynman_I_15_1.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.10878837258249209,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1,
+                    "time": 1.918869972229004
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.12731536746821331,
+                    "infix": "(  ( x_0 )  *  ( x_1 )  ) ",
+                    "prefix": " * x_0 x_1 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_II_24_17.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.05021965240569329,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2,
+                    "time": 2.279438018798828
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.04066716617664073,
+                    "infix": "(  ( x_0 )  * (  ( 1 )  /  ( x_1 )  )  ) ",
+                    "prefix": " * x_0  / 1 x_1  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_test_11.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_15_5.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.3528883577724273e-11,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  * (  ( 1.0000006 )  * (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  )  ) ",
+                    "prefix": " *  - 0 1  * 1.0000006  * x_0  * x_1  cos x_2    ",
+                    "num_operations": 6,
+                    "time": 2.059762716293335
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.2395200652546494e-11,
+                    "infix": "( (  ( 0 )  -  ( 1 )  )  * (  ( 1.0000006 )  * (  ( x_0 )  * (  ( x_1 )  *  cos ( ( x_2 )  ) )  )  )  ) ",
+                    "prefix": " *  - 0 1  * 1.0000006  * x_0  * x_1  cos x_2    ",
+                    "num_operations": 6
+                }
+            }
+        }
+    },
+    "feynman_test_16.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_7.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_III_8_54.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.1169150431138835,
+                    "infix": "(  ( 0.31439063 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.31439063 x_0 ",
+                    "num_operations": 1,
+                    "time": 2.0428967475891113
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.1212440059531939,
+                    "infix": "(  ( 0.31439063 )  *  ( x_0 )  ) ",
+                    "prefix": " * 0.31439063 x_0 ",
+                    "num_operations": 1
+                }
+            }
+        }
+    },
+    "feynman_I_18_4.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_I_37_4.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 0.046921588478553246,
+                    "infix": "(  ( x_0 )  +  (  ( x_1 )  +  ( (  ( x_0 )  +   ( x_1 )  )  *  cos ( ( x_2 )  ) )  )  ) ",
+                    "prefix": " + x_0  + x_1  *  + x_0 x_1   cos x_2   ",
+                    "num_operations": 5,
+                    "time": 2.3241801261901855
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 0.046994669155701684,
+                    "infix": "(  ( x_0 )  +  (  ( x_1 )  +  ( (  ( x_0 )  +   ( x_1 )  )  *  cos ( ( x_2 )  ) )  )  ) ",
+                    "prefix": " + x_0  + x_1  *  + x_0 x_1   cos x_2   ",
+                    "num_operations": 5
+                }
+            }
+        }
+    },
+    "feynman_III_9_52.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_11_28.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 6.647340782261616e-05,
+                    "infix": "(  ( 1 )  /  exp ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.93307257 )  * (  ( x_0 )  *  ( x_1 )  )  )  )  ) ",
+                    "prefix": " / 1  exp  *  - 0 1  * 0.93307257  * x_0 x_1    ",
+                    "num_operations": 6,
+                    "time": 2.255260705947876
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 5.0033065974876956e-05,
+                    "infix": "(  ( 1 )  /  exp ( (  ( 0 )  -  ( 1 )  )  * (  ( 0.93307257 )  * (  ( x_0 )  *  ( x_1 )  )  )  )  ) ",
+                    "prefix": " / 1  exp  *  - 0 1  * 0.93307257  * x_0 x_1    ",
+                    "num_operations": 6
+                }
+            }
+        }
+    },
+    "feynman_II_27_18.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.7332260163837156e-28,
+                    "infix": "(  ( x_0 )  *    ( x_1 )   **   ( 2 )    ) ",
+                    "prefix": " * x_0  ** x_1 2  ",
+                    "num_operations": 2,
+                    "time": 1.955185890197754
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 1.180177000716114e-28,
+                    "infix": "(  ( x_0 )  *    ( x_1 )   **   ( 2 )    ) ",
+                    "prefix": " * x_0  ** x_1 2  ",
+                    "num_operations": 2
+                }
+            }
+        }
+    },
+    "feynman_I_40_1.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_test_18.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_6_15b.tsv.gz": {
+        "equation": "To many variables"
+    },
+    "feynman_II_37_1.tsv.gz": {
+        "classic": {
+            "train": {
+                "0": {
+                    "error": 1.1811877287509282e-28,
+                    "infix": "(  ( x_0 )  * ( (  ( x_1 )  *  ( x_2 )  )  +   ( x_1 )  )  ) ",
+                    "prefix": " * x_0  +  * x_1 x_2  x_1  ",
+                    "num_operations": 3,
+                    "time": 1.9128763675689697
+                }
+            },
+            "test": {
+                "0": {
+                    "error": 6.850270885712962e-29,
+                    "infix": "(  ( x_0 )  * ( (  ( x_1 )  *  ( x_2 )  )  +   ( x_1 )  )  ) ",
+                    "prefix": " * x_0  +  * x_1 x_2  x_1  ",
+                    "num_operations": 3
+                }
+            }
+        }
+    },
+    "finished": "True"
+}
